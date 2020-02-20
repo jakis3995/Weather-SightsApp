@@ -36,19 +36,64 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="firstLast" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fyi-F8-dtn">
+                                        <rect key="frame" x="24" y="143" width="327" height="40"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="34"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="secondLast" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eCb-ap-qeY">
+                                        <rect key="frame" x="24" y="191" width="327" height="40"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="34"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="thirdLast" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I52-m3-6VA">
+                                        <rect key="frame" x="24" y="239" width="327" height="40"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="34"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="fourthLast" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xD4-bW-oFx">
+                                        <rect key="frame" x="24" y="287" width="327" height="40"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="34"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="fifthLast" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5xt-KM-Odz">
+                                        <rect key="frame" x="24" y="335" width="327" height="40"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="34"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="3Rb-PK-yBE" firstAttribute="top" secondItem="kXa-iT-vkZ" secondAttribute="bottom" constant="32" id="0Zv-fG-uD8"/>
                                     <constraint firstItem="kXa-iT-vkZ" firstAttribute="centerX" secondItem="3Ti-wt-XOz" secondAttribute="centerX" id="4Av-Cs-cZd"/>
+                                    <constraint firstAttribute="trailing" secondItem="xD4-bW-oFx" secondAttribute="trailing" constant="24" id="6Rf-0S-TK9"/>
+                                    <constraint firstAttribute="trailing" secondItem="fyi-F8-dtn" secondAttribute="trailing" constant="24" id="9gh-u0-6p1"/>
+                                    <constraint firstItem="fyi-F8-dtn" firstAttribute="top" secondItem="3Rb-PK-yBE" secondAttribute="bottom" constant="24" id="CRe-Za-ivo"/>
+                                    <constraint firstItem="5xt-KM-Odz" firstAttribute="leading" secondItem="3Ti-wt-XOz" secondAttribute="leading" constant="24" id="DFx-2G-VsM"/>
                                     <constraint firstAttribute="bottom" secondItem="kXa-iT-vkZ" secondAttribute="bottom" constant="461" id="Ddc-ud-MYx"/>
+                                    <constraint firstItem="eCb-ap-qeY" firstAttribute="leading" secondItem="3Ti-wt-XOz" secondAttribute="leading" constant="24" id="LYk-Oi-hLb"/>
+                                    <constraint firstItem="xD4-bW-oFx" firstAttribute="top" secondItem="I52-m3-6VA" secondAttribute="bottom" constant="8" id="O7V-ga-rwH"/>
+                                    <constraint firstAttribute="trailing" secondItem="eCb-ap-qeY" secondAttribute="trailing" constant="24" id="Ugf-4H-lic"/>
+                                    <constraint firstItem="I52-m3-6VA" firstAttribute="top" secondItem="eCb-ap-qeY" secondAttribute="bottom" constant="8" id="Yec-yy-FGW"/>
+                                    <constraint firstAttribute="trailing" secondItem="I52-m3-6VA" secondAttribute="trailing" constant="24" id="acL-nq-zLI"/>
+                                    <constraint firstItem="xD4-bW-oFx" firstAttribute="leading" secondItem="3Ti-wt-XOz" secondAttribute="leading" constant="24" id="gAR-UZ-jVD"/>
+                                    <constraint firstItem="5xt-KM-Odz" firstAttribute="top" secondItem="xD4-bW-oFx" secondAttribute="bottom" constant="8" id="gMz-CO-OM9"/>
                                     <constraint firstItem="3Rb-PK-yBE" firstAttribute="leading" secondItem="3Ti-wt-XOz" secondAttribute="leading" constant="24" id="klb-BK-SEw"/>
                                     <constraint firstItem="kXa-iT-vkZ" firstAttribute="leading" secondItem="3Ti-wt-XOz" secondAttribute="leadingMargin" id="lce-GZ-iS2"/>
+                                    <constraint firstItem="fyi-F8-dtn" firstAttribute="leading" secondItem="3Ti-wt-XOz" secondAttribute="leading" constant="24" id="qfM-gQ-Vxd"/>
+                                    <constraint firstAttribute="trailing" secondItem="5xt-KM-Odz" secondAttribute="trailing" constant="24" id="qvA-PL-YOA"/>
                                     <constraint firstItem="kXa-iT-vkZ" firstAttribute="top" secondItem="3Ti-wt-XOz" secondAttribute="top" constant="16" id="qzv-nn-GGq"/>
                                     <constraint firstItem="kXa-iT-vkZ" firstAttribute="trailing" secondItem="3Ti-wt-XOz" secondAttribute="trailingMargin" id="tbn-bc-unW"/>
+                                    <constraint firstItem="eCb-ap-qeY" firstAttribute="top" secondItem="fyi-F8-dtn" secondAttribute="bottom" constant="8" id="uMg-YX-vRq"/>
+                                    <constraint firstItem="I52-m3-6VA" firstAttribute="leading" secondItem="3Ti-wt-XOz" secondAttribute="leading" constant="24" id="x4x-zX-vXg"/>
                                 </constraints>
                             </scrollView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Погода" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ppS-RM-YQe">
-                                <rect key="frame" x="16" y="92" width="343" height="40"/>
+                                <rect key="frame" x="24" y="92" width="327" height="40"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="34"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -60,9 +105,9 @@
                             <constraint firstItem="3Ti-wt-XOz" firstAttribute="bottom" secondItem="r80-zb-tMo" secondAttribute="bottom" id="6ds-sf-m1D"/>
                             <constraint firstItem="3Ti-wt-XOz" firstAttribute="centerX" secondItem="ppS-RM-YQe" secondAttribute="centerX" id="KAi-Kb-40W"/>
                             <constraint firstItem="3Ti-wt-XOz" firstAttribute="leading" secondItem="qPe-mk-o6e" secondAttribute="leading" id="RJX-Zt-zvE"/>
-                            <constraint firstItem="ppS-RM-YQe" firstAttribute="leading" secondItem="r80-zb-tMo" secondAttribute="leading" constant="16" id="c4e-VJ-N9b"/>
+                            <constraint firstItem="ppS-RM-YQe" firstAttribute="leading" secondItem="r80-zb-tMo" secondAttribute="leading" constant="24" id="c4e-VJ-N9b"/>
                             <constraint firstItem="ppS-RM-YQe" firstAttribute="top" secondItem="r80-zb-tMo" secondAttribute="top" constant="28" id="p0t-8u-cs5"/>
-                            <constraint firstItem="r80-zb-tMo" firstAttribute="trailing" secondItem="ppS-RM-YQe" secondAttribute="trailing" constant="16" id="w9d-aa-dUU"/>
+                            <constraint firstItem="r80-zb-tMo" firstAttribute="trailing" secondItem="ppS-RM-YQe" secondAttribute="trailing" constant="24" id="w9d-aa-dUU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="r80-zb-tMo"/>
                     </view>
